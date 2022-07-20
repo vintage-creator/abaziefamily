@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('shane-rounce-DNkoNXQti3c-unsplash 1.png');
+    background-size: cover;
+    background-position: 100% 15%;
+    background-repeat: no-repeat;
+    padding: 2em;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>img{
+    height: 4%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul>li{
+    padding: 1em;
+    width:max-content;
+}

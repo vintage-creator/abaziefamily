@@ -1,0 +1,430 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 12px;
+}
+
+.header {
+  background-image: url("shane-rounce-DNkoNXQti3c-unsplash 1.png");
+  background-size: cover;
+  opacity: 200;
+  background-position: 100% 15%;
+  background-repeat: no-repeat;
+  padding: 1.8em;
+}
+
+#header_ {
+  padding: 1.8em;
+  background-image: url("abstractart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 7em;
+}
+
+nav {
+  color: white;
+}
+
+nav > div {
+  display: flex;
+  width: max-content;
+}
+
+.logo {
+  padding-bottom: 1em;
+  width: 2.5%;
+  height: 2%;
+}
+
+.footer_logo {
+  padding-bottom: 1em;
+  width: 10%;
+  height: 10%;
+  margin-bottom: -1.5em;
+}
+
+.logotxt {
+  margin-top: 0.9em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  width: max-content;
+  padding-left: 0.4em;
+}
+
+.logotxt1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    width: max-content;
+    padding-left: 0.4em; 
+}
+
+.footer_logotxt {
+  margin-top: -8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: max-content;
+  color: white;
+  padding-left: 0.2em;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  background-color: black;
+  width: 80%;
+  margin: -6.5em 3em;
+  padding: 5em 0.7em;
+  height: 100vh;
+  text-align: center;
+  transform: translateX(150%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.open-nav {
+  transform: translateX(0%);
+  position: fixed;
+  z-index: 999;
+}
+
+.hamburger {
+  margin: 1.2em 23em;
+  width: 2%;
+  height: 2%;
+}
+
+
+.close {
+  margin: -2em 12em 2em;
+  cursor: pointer;
+  width: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul > li {
+  padding: 0.8em;
+  font-size: 1.8em;
+}
+
+h3 {
+  display: flex;
+  font-size: 18px;
+  width: 70%;
+  padding-left: 2.3em;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.h1 {
+  font-family: "Jeju Hallasan", cursive;
+  color: #ebcc36;
+  font-size: 33px;
+  margin-left: 2.3em;
+  stroke: black;
+  stroke-width: 100%;
+}
+
+#h1 {
+  font-family: "Jeju Hallasan", cursive;
+  color: #040429;
+  border: 1px solid white;
+  margin: -14em 0.2em 3em;
+  padding: 0.5em 1em;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h3 > img {
+  margin: 1.3em -1.9em;
+  width: 5%;
+  padding-right: 2em;
+}
+
+#button {
+  padding: 0.8em 4.5em 0.8em 4.5em;
+  border-radius: 0.8em;
+  margin: 1em 5em;
+  width:max-content;
+  border: blue;
+  box-shadow: 0px 1px 0px #aaaaaa;
+  background-image: linear-gradient(to right top, #ebcc36, #1839e4);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#buttn {
+  padding: 0.8em 3.5em 0.8em 3.5em;
+  border-radius: 0.8em;
+  margin: -2em 13.4em 1em;
+  width:max-content;
+  border: blue;
+  box-shadow: 0px 1px 0px #aaaaaa;
+  background-color: #040429;
+  color: white;
+  font-weight: bold;
+}
+
+#buttn_1 {
+  padding: 1em;
+  border-radius: 0.8em;
+  margin: -20em 6em 2em;
+  border: 1px solid white;
+  box-shadow: 0px 1px 0px #aaaaaa;
+  background-color: #040429;
+  width: 45%;
+  font-weight: 300;
+}
+
+#buttn_gallery {
+  padding: 0.8em 2.5em 0.8em 2.5em;
+  border-radius: 0.8em;
+  margin: -2.5em 3.2em 2em;
+  border: blue;
+  box-shadow: 0px 1px 0px #aaaaaa;
+  background-color: #040429;
+  color: white;
+  font-weight: bold;
+}
+
+.shift {
+  margin-top: -42em;
+  padding-bottom: 3em;
+}
+
+.buttontxt {
+  color: white;
+  width:max-content;
+  margin: -3.5em 9.5em 3em;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+  width: 1px;
+  padding-left: 75px;
+}
+
+.image1 {
+  background-color: #040429;
+  padding-left: 83px;
+  margin-top: 2em;
+}
+
+.image2 {
+  padding-left: 87px;
+  margin: -2em 0em 5em;
+}
+
+.image3 {
+  background-color: #040429;
+  padding-left: 85px;
+  margin-top: 3.5em;
+}
+
+.slider {
+  padding: 16px;
+  margin-top: -2.8em;
+  display: flex;
+  overflow: auto hidden;
+  scroll-behavior: smooth;
+}
+
+.block {
+  margin: 4em 4em;
+}
+
+.block > div {
+  margin-bottom: 1.5em;
+}
+
+#slide_image {
+  margin-right: 1em;
+}
+
+h5 {
+  font-family: "Jeju Hallasan", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.thanksgiving {
+  color: #040429;
+  margin: -1.8em 2em;
+}
+
+.mySlides {
+  display: none;
+}
+
+.container-img {
+  vertical-align: middle;
+}
+
+.container-img1 {
+  height: 2%;
+  vertical-align: middle;
+  opacity: 500;
+}
+
+.slideshow-container {
+  width: 85%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  letter-spacing: 1px;
+  stroke: black;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 92%;
+  text-align: center;
+  background-color: #2e2c2c;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.news {
+  font-family: "Jeju Hallasan", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background: white;
+  padding: 1em;
+  border: 2px solid #ebcc36;
+  border-radius: 0.8em;
+  margin: -1em 4.4em;
+}
+
+video {
+  margin: 2.5em 2.5em 0em;
+  width: 87%;
+}
+
+.chief {
+  font-weight: 700;
+  margin: 0.5em 2em 3em;
+  text-align: center;
+  border-bottom: 1px silver solid;
+  padding-bottom: 3em;
+}
+
+#past_ {
+  margin: 3em -12em;
+  color: white;
+  stroke: black;
+  stroke-width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#h5_ {
+  display: flex;
+  margin: 0.8em 2.8em;
+}
+
+#footer_h5 {
+  font-size: 13px;
+  font-weight: 300;
+  color: gray;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  align-items: center;
+  float: center;
+  margin-top: 0.2em;
+}
+
+.footerdiv,
+.footerdiv2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.icons2 {
+  margin-left: -1.3em;
+}
+
+.icons2 > img {
+  padding-left: 1.3em;
+}
+
+.lists {
+  text-align: center;
+  float: center;
+  width: 70%;
+  list-style-type: none;
+}
+
+.lists > li {
+  padding-bottom: 10px;
+  align-items: center;
+  float: center;
+  text-transform: capitalize;
+}
+
+.link2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
