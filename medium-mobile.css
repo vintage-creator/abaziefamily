@@ -50,7 +50,7 @@ nav > div {
 
 .logotxt {
   margin-top: 0.9em;;
-    font-size: 17px;
+    font-size: 18px;
     width: max-content;
     padding-left: 0.4em; 
 }
@@ -85,7 +85,7 @@ ul {
   display: block;
   background-color: black;
   width: 80%;
-  margin: -6.5em 3em;
+  margin: -6.5em 5em;
   padding: 5em 0.7em;
   height: 100vh;
   text-align: center;
@@ -107,7 +107,7 @@ ul {
 
 
 .close {
-  margin: -2em 12em 2em;
+  margin: -2em 11.4em 2em;
   cursor: pointer;
   width: 10%;
 }
@@ -130,16 +130,18 @@ h3 {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 25px;
 }
 
 .h1 {
   font-family: "Jeju Hallasan", cursive;
   color: #ebcc36;
-  font-size: 35px;
+  font-size: 39px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
+  margin-top: -3em;
 }
 
 
@@ -202,7 +204,7 @@ h3 {
   width:max-content;
   margin: -2.2em 7em 2em;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .image {
@@ -380,7 +382,7 @@ video {
   width: 50%;
   stroke-width: 100%;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 #h5_ {
@@ -390,7 +392,7 @@ video {
 
 #footer_h5 {
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 500;
   color: gray;
 }
 

@@ -86,7 +86,7 @@ ul {
   display: block;
   background-color: black;
   width: 80%;
-  margin: -6.5em 3em;
+  margin: -6.8em 9em;
   padding: 5em 0.7em;
   height: 100vh;
   text-align: center;
@@ -108,9 +108,9 @@ ul {
 
 
 .close {
-  margin: -2em 12em 2em;
+  margin: -2em 17em 2em;
   cursor: pointer;
-  width: 10%;
+  width: 8%;
 }
 
 a {
@@ -132,16 +132,18 @@ h3 {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 .h1 {
   font-family: "Jeju Hallasan", cursive;
   color: #ebcc36;
-  font-size: 40px;
+  font-size: 43px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
+  margin-top: -2em;
 }
 
 
@@ -204,7 +206,7 @@ h3 {
   width:max-content;
   margin: -2.15em 11.8em 3em;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .image {
@@ -382,7 +384,7 @@ video {
   width: 50%;
   stroke-width: 100%;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 #h5_ {
@@ -392,7 +394,7 @@ video {
 
 #footer_h5 {
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 500;
   color: gray;
 }
 

@@ -109,6 +109,7 @@ a {
 ul > li {
   padding: 0.8em;
   font-size: 1.8em;
+  float: center;
 }
 
 h3 {
@@ -118,16 +119,19 @@ h3 {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 18px;
+
 }
 
 .h1 {
   font-family: "Jeju Hallasan", cursive;
   color: #ebcc36;
-  font-size: 25px;
+  font-size: 28px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
+  margin-top: -5.8em;
 }
 
 #h1 {
@@ -201,7 +205,7 @@ h3 {
   width:max-content;
   margin: -3em 7em 1em;
   font-size: 11px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .image {
@@ -377,7 +381,7 @@ video {
   width: 50%;
   stroke-width: 100%;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 #h5_ {
@@ -387,7 +391,7 @@ video {
 
 #footer_h5 {
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 500;
   color: gray;
 }
 
