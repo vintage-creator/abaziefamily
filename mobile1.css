@@ -49,27 +49,16 @@ nav > div {
 }
 
 .logotxt {
-  margin-top: 0.9em;;
-    font-size: 17px;
-    width: max-content;
-    padding-left: 0.4em; 
-}
-
-.logotxt1{
   margin-top: 0.9em;
-  font-size: 20px;
+  font-size: 17px;
   width: max-content;
   padding-left: 0.4em;
 }
 
-#h1 {
-  font-family: "Jeju Hallasan", cursive;
-  color: #040429;
-  border: 1px solid white;
-  margin: -14em 0.2em 3em;
-  padding: 0.5em 1em;
-  font-size: 33px;
-  font-weight: 700;
+.logotxt1{
+    font-size: 17px;
+    width: max-content;
+    padding-left: 0.4em; 
 }
 
 .footer_logotxt {
@@ -100,14 +89,13 @@ ul {
 }
 
 .hamburger {
-  margin: 1.2em 14.5em;
+  margin: 1.2em 14em;
   width: 2%;
   height: 2%;
 }
 
-
 .close {
-  margin: -2em 12em 2em;
+  margin: -2em 7.8em 2em;
   cursor: pointer;
   width: 10%;
 }
@@ -125,7 +113,7 @@ ul > li {
 
 h3 {
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   width: 96%;
   letter-spacing: 1px;
   text-align: center;
@@ -136,18 +124,28 @@ h3 {
 .h1 {
   font-family: "Jeju Hallasan", cursive;
   color: #ebcc36;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
 }
 
+#h1 {
+  font-family: "Jeju Hallasan", cursive;
+  color: #040429;
+  border: 1px solid white;
+  margin: -14em 0.2em 3em;
+  padding: 0.5em 1em;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 
 #button {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0.8em 4.5em 0.8em 4.5em;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0.8em 4.8em 0.8em 4.5em;
   border-radius: 0.8em;
-  margin-left: 5.8em;
+  margin-left: 5.13em;
   border: blue;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-image: linear-gradient(to right top, #ebcc36, #1839e4);
@@ -157,14 +155,15 @@ h3 {
 
 #buttn {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0.8em 3.5em 0.8em 3.5em;
+  padding: 0.8em 2em 0.8em 2em;
   border-radius: 0.8em;
-  margin: -0.8em 8.5em;
-  width:max-content;
+  margin: -1em 11.9em;
   border: blue;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
   color: white;
+  font-size: 11px;
+  width:max-content;
   font-weight: bold;
 }
 
@@ -172,11 +171,11 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 1em;
   border-radius: 0.8em;
-  margin: -20em 6em 2em;
+  margin: -19em 8.6em 2.7em;
   border: 1px solid white;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
-  width: 45%;
+  width: max-content;
   font-weight: 300;
 }
 
@@ -192,7 +191,7 @@ h3 {
 }
 
 .shift {
-  margin-top: -50em;
+  margin-top: -55em;
   padding-bottom: 3em;
 }
 
@@ -200,31 +199,34 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   width:max-content;
-  margin: -2.2em 7em 2em;
-  font-size: 15px;
+  margin: -2.5em 8.9em 1em;
+  font-size: 12px;
   font-weight: 200;
 }
 
 .image {
-  width: 1px;
-  padding-left: 30px;
+  margin-left: 1.3em;
+}
+
+.big{
+  width: 95%;
 }
 
 .image1 {
   background-color: #040429;
-  padding-left: 30px;
-  margin-top: 2em;
+  padding-left: 10px;
+  margin: 2em -1.7em;
 }
 
 .image2 {
-  padding-left: 37px;
-  margin-top: -2.8em;
+  margin: -1.8em 2em;
+  width: 90%;
 }
 
 .image3 {
   background-color: #040429;
-  padding-left: 30px;
-  margin-top: 5.5em;
+  padding-left: 2em;
+  margin: 5.5em -1em 0.3em;
 }
 
 .slider {
@@ -235,16 +237,16 @@ h3 {
   scroll-behavior: smooth;
 }
 
+#slide_image {
+  margin-right: 1.5em;
+}
+
 .block {
   margin: 4em 4em;
 }
 
 .block > div {
   margin-bottom: 1.5em;
-}
-
-#slide_image {
-  margin-right: 1em;
 }
 
 h5 {
@@ -257,15 +259,11 @@ h5 {
 .thanksgiving {
   color: #040429;
   margin: -1.8em 2em;
-  font-size: 1.39em;
+  font-size: 1.28em;
 }
 
 #fontt{
   font-size: 0.99em!important;
-}
-
-#headerfont{
-  font-size: 1.5em!important;
 }
 
 .mySlides {
@@ -290,6 +288,7 @@ h5 {
 
 /* Caption text */
 .text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #f2f2f2;
   font-size: 15px;
   letter-spacing: 1px;
@@ -298,9 +297,9 @@ h5 {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 92%;
+  width: 90%;
   text-align: center;
-  background-color: #2e2c2c;
+  background-color: black;
 }
 
 /* Number text (1/3 etc) */
@@ -346,18 +345,19 @@ h5 {
 .news {
   font-family: "Jeju Hallasan", cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   background: white;
   padding: 1em;
   border: 2px solid #ebcc36;
   border-radius: 0.8em;
-  margin: -1em 4em;
+  margin: -1em 7.9em;
 }
 
 video {
-  margin: 2.5em 2.5em 0em;
+  margin: 0.5em 2.4em 0em;
   width: 85%;
+  height: 80%;
 }
 
 .chief {
@@ -366,20 +366,17 @@ video {
   text-align: center;
   border-bottom: 1px silver solid;
   padding-bottom: 3em;
-}
-
-.chiefspan{
-  font-size: 18px!important;
+  line-height: 15px;
 }
 
 #past_ {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 3em -8em;
+  margin: 3em -9.2em;
   color: white;
   stroke: black;
   width: 50%;
   stroke-width: 100%;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
 }
 
@@ -399,7 +396,7 @@ footer {
   padding: 20px;
   align-items: center;
   float: center;
-  margin-top: 0.6em;
+  margin-top: 0.4em;
 }
 
 .footerdiv,
