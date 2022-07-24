@@ -10,7 +10,7 @@ html {
 }
 
 .header {
-  background-image: url("shane-rounce-DNkoNXQti3c-unsplash 1.png");
+  background-image: url("Group 46.png");
   background-size: cover;
   opacity: 200;
   background-position: 100% 15%;
@@ -118,7 +118,7 @@ h3 {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 20px;
 }
 
@@ -148,10 +148,9 @@ h3 {
   padding: 0.8em 4.8em 0.8em 4.5em;
   border-radius: 0.8em;
   margin-left: 4em;
-  border: blue;
-  box-shadow: 0px 1px 0px #aaaaaa;
-  background-image: linear-gradient(to right top, #ebcc36, #1839e4);
-  color: white;
+  background-color: white;
+  border: white;
+  color: #040429;
   font-weight: bold;
 }
 
@@ -159,7 +158,7 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0.8em 2em 0.8em 2em;
   border-radius: 0.8em;
-  margin: -1em 10.15em;
+  margin: -2em 10.15em;
   border: blue;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
@@ -193,7 +192,7 @@ h3 {
 }
 
 .shift {
-  margin-top: -55em;
+  margin-top: -53em;
   padding-bottom: 3em;
 }
 
@@ -201,9 +200,9 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   width:max-content;
-  margin: -3em 9em 1em;
+  margin: -3em 9em 3em;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .image {
@@ -217,7 +216,7 @@ h3 {
 .image1 {
   background-color: #040429;
   padding-left: 8px;
-  margin: 2em -1.7em;
+  margin: 4em -1.7em;
 }
 
 .image2 {
@@ -260,7 +259,7 @@ h5 {
 
 .thanksgiving {
   color: #040429;
-  margin: -1.8em 2em;
+  margin: -1.5em 2em;
   font-size: 1.28em;
 }
 
@@ -357,7 +356,7 @@ h5 {
 }
 
 video {
-  margin: 0.5em 2em 0em;
+  margin: 0em 2em 0em;
   width: 85%;
   height: 80%;
 }
@@ -373,18 +372,10 @@ video {
 
 #past_ {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 3em -8.2em;
-  color: white;
-  stroke: black;
   width: 50%;
   stroke-width: 100%;
-  font-size: 20px;
   font-weight: 700;
-}
-
-#h5_ {
-  display: flex;
-  margin: 0.8em 2.8em;
+  padding-top: 2em;
 }
 
 #footer_h5 {

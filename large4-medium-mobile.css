@@ -10,7 +10,7 @@ html {
 }
 
 .header {
-  background-image: url("shane-rounce-DNkoNXQti3c-unsplash 1.png");
+  background-image: url("Group 46.png");
   background-size: cover;
   opacity: 200;
   background-position: 100% 15%;
@@ -130,8 +130,8 @@ h3 {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  font-weight: 600;
-  line-height: 30px;
+  font-weight: 200;
+  line-height: 26px;
 }
 
 .h1 {
@@ -150,10 +150,9 @@ h3 {
   padding: 0.8em 6.5em 0.8em 6.5em;
   border-radius: 0.8em;
   margin-left: 8em;
-  border: blue;
-  box-shadow: 0px 1px 0px #aaaaaa;
-  background-image: linear-gradient(to right top, #ebcc36, #1839e4);
-  color: white;
+  background-color: white;
+  border: white;
+  color: #040429;
   font-weight: bold;
 }
 
@@ -202,20 +201,19 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   width:max-content;
-  margin: -2.2em 11em 2em;
+  margin: -2.2em 11em 3em;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .image {
-  width: 1px;
   padding-left: 92px;
 }
 
 .image1 {
   background-color: #040429;
   padding-left: 92px;
-  margin-top: 2em;
+  margin-top: 6em;
 }
 
 .image2 {
@@ -258,7 +256,7 @@ h5 {
 
 .thanksgiving {
   color: #040429;
-  margin: -1.95em 2.3em;
+  margin: -1.5em 2.3em;
   font-size: 1.78em;
 }
 
@@ -376,18 +374,10 @@ video {
 
 #past_ {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 3em -12em;
-  color: white;
-  stroke: black;
   width: 50%;
   stroke-width: 100%;
-  font-size: 24px;
   font-weight: 700;
-}
-
-#h5_ {
-  display: flex;
-  margin: 0.8em 2.8em;
+  padding-top: 2em;
 }
 
 #footer_h5 {
@@ -440,3 +430,10 @@ footer {
   text-decoration: none;
   display: block;
 }
+
+.big{
+  width: 98%;
+  height: 98%;
+  margin-left: -3.8em;
+}
+
