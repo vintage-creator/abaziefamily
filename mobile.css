@@ -1,12 +1,10 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-
 body,
 html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-size: 12px;
-  font-family:  "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header {
@@ -55,10 +53,10 @@ nav > div {
   padding-left: 0.4em;
 }
 
-.logotxt1{
-    font-size: 17px;
-    width: max-content;
-    padding-left: 0.4em; 
+.logotxt1 {
+  font-size: 17px;
+  width: max-content;
+  padding-left: 0.4em;
 }
 
 .footer_logotxt {
@@ -112,6 +110,7 @@ ul > li {
 }
 
 h3 {
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   font-size: 15px;
   width: 96%;
@@ -124,17 +123,15 @@ h3 {
 }
 
 .h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #ebcc36;
-  font-size: 33px;
+  font-size: 29px;
   text-align: center;
-  stroke: black;
-  stroke-width: 100%;
   margin-top: -3.8em;
 }
 
 #h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #040429;
   border: 1px solid white;
   margin: -14em 0.2em 3em;
@@ -143,12 +140,11 @@ h3 {
   font-weight: 700;
 }
 
-
 #button {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 4.8em 0.8em 4.5em;
   border-radius: 0.8em;
-  margin-left: 5.13em;
+  /* margin-left: 5.13em; */
   background-color: white;
   border: white;
   color: #040429;
@@ -156,7 +152,7 @@ h3 {
 }
 
 #buttn {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 2em 0.8em 2em;
   border-radius: 0.8em;
   margin: -1em 11em;
@@ -165,12 +161,12 @@ h3 {
   background-color: #040429;
   color: white;
   font-size: 11px;
-  width:max-content;
+  width: max-content;
   font-weight: bold;
 }
 
 #buttn_1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 1em;
   border-radius: 0.8em;
   margin: -20em 7.9em 2em;
@@ -193,15 +189,13 @@ h3 {
 }
 
 .shift {
-  margin-top: -52em;
+  margin-top: -58em;
   padding-bottom: 3em;
 }
 
 .buttontxt {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
-  width:max-content;
-  margin: -2.5em 8.9em 2.8em;
   font-size: 12px;
   font-weight: 400;
 }
@@ -210,7 +204,7 @@ h3 {
   margin-left: 1.3em;
 }
 
-.big{
+.big {
   width: 95%;
 }
 
@@ -252,8 +246,8 @@ h3 {
 }
 
 h5 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight:900;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
   font-size: 1.9em;
   text-align: center;
 }
@@ -264,8 +258,8 @@ h5 {
   font-size: 1.29em;
 }
 
-#fontt{
-  font-size: 0.99em!important;
+#fontt {
+  font-size: 0.99em !important;
 }
 
 .mySlides {
@@ -290,7 +284,7 @@ h5 {
 
 /* Caption text */
 .text {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #f2f2f2;
   font-size: 15px;
   letter-spacing: 1px;
@@ -345,8 +339,8 @@ h5 {
 }
 
 .news {
-  font-family: "Jeju Hallasan", cursive;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   text-align: center;
   background: white;
@@ -372,13 +366,12 @@ video {
 }
 
 #past_ {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   width: 50%;
   stroke-width: 100%;
   font-weight: 700;
   padding-top: 2em;
 }
-
 
 #footer_h5 {
   font-size: 13px;

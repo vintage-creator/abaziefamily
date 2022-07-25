@@ -1,5 +1,3 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-
 body,
 html {
   margin: 0;
@@ -63,7 +61,7 @@ nav > div {
 }
 
 #h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #040429;
   border: 1px solid white;
   margin: -14em 0.2em 3em;
@@ -136,9 +134,9 @@ h3 {
 }
 
 .h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #ebcc36;
-  font-size: 39px;
+  font-size: 35px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
@@ -147,10 +145,9 @@ h3 {
 
 
 #button {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 4.5em 0.8em 4.5em;
   border-radius: 0.8em;
-  margin-left: 5.8em;
   background-color: white;
   border: white;
   color: #040429;
@@ -158,11 +155,9 @@ h3 {
 }
 
 #buttn {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 3.5em 0.8em 3.5em;
   border-radius: 0.8em;
-  margin: -0.8em 8.5em;
-  width:max-content;
   border: blue;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
@@ -171,7 +166,7 @@ h3 {
 }
 
 #buttn_1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 1em;
   border-radius: 0.8em;
   margin: -20em 6em 2em;
@@ -194,15 +189,13 @@ h3 {
 }
 
 .shift {
-  margin-top: -51em;
+  margin-top: -60em;
   padding-bottom: 3em;
 }
 
 .buttontxt {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
-  width:max-content;
-  margin: -2.2em 7em 3em;
   font-size: 15px;
   font-weight: 400;
 }
@@ -249,7 +242,7 @@ h3 {
 }
 
 h5 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight:900;
   font-size: 2em;
   text-align: center;
@@ -345,7 +338,7 @@ h5 {
 }
 
 .news {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -374,7 +367,7 @@ video {
 }
 
 #past_ {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   width: 50%;
   stroke-width: 100%;
   font-weight: 700;
@@ -392,7 +385,7 @@ footer {
   padding: 20px;
   align-items: center;
   float: center;
-  margin-top: 0.6em;
+  margin-top: 0.8em;
 }
 
 .footerdiv,

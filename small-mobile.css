@@ -1,5 +1,3 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-
 body,
 html {
   margin: 0;
@@ -123,9 +121,9 @@ h3 {
 }
 
 .h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #ebcc36;
-  font-size: 26px;
+  font-size: 23px;
   text-align: center;
   stroke: black;
   stroke-width: 100%;
@@ -133,7 +131,7 @@ h3 {
 }
 
 #h1 {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
   color: #040429;
   border: 1px solid white;
   margin: -14em 0.2em 3em;
@@ -144,10 +142,9 @@ h3 {
 
 
 #button {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 4.5em 0.8em 4.5em;
   border-radius: 0.8em;
-  margin: 2em 2.5em 0em;
   background-color: white;
   border: white;
   color: #040429;
@@ -155,24 +152,22 @@ h3 {
 }
 
 #buttn {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0.8em 2em 0.8em 2em;
   border-radius: 0.8em;
-  margin: -1em 8.1em;
   border: blue;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
   color: white;
   font-size: 11px;
-  width:max-content;
   font-weight: bold;
 }
 
 #buttn_1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 1em;
   border-radius: 0.8em;
-  margin: -20em 5.5em 2em;
+  /* margin: -20em 5.5em 2em; */
   border: 1px solid white;
   box-shadow: 0px 1px 0px #aaaaaa;
   background-color: #040429;
@@ -192,15 +187,13 @@ h3 {
 }
 
 .shift {
-  margin-top: -52em;
+  margin-top: -60em;
   padding-bottom: 3em;
 }
 
 .buttontxt {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
-  width:max-content;
-  margin: -3em 6.5em 2em;
   font-size: 11px;
   font-weight: 400;
 }
@@ -251,7 +244,7 @@ h3 {
 }
 
 h5 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight:900;
   font-size: 20px;
   text-align: center;
@@ -289,7 +282,7 @@ h5 {
 
 /* Caption text */
 .text {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #f2f2f2;
   font-size: 15px;
   letter-spacing: 1px;
@@ -344,7 +337,7 @@ h5 {
 }
 
 .news {
-  font-family: "Jeju Hallasan", cursive;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-align: center;
@@ -371,7 +364,7 @@ video {
 }
 
 #past_ {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   width: 50%;
   stroke-width: 100%;
   font-weight: 700;
@@ -390,7 +383,7 @@ footer {
   padding: 20px;
   align-items: center;
   float: center;
-  margin-top: 0.2em;
+  margin-top: 0.6em;
 }
 
 .footerdiv,
